@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+
+    <title>Document</title>
+</head>
+<body class="main-container">
+    <!-- Agrega una fuente de Google -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+<!-- Modifica el HTML para los resultados -->
+<section class="resultado">
+    <div class="resultado-item">
+        <h1 class="titulo-seccion">🔒 Encriptado</h1>
+        <div class="response placeholder">Resultado aparecerá aquí...</div>
+    </div>
+    <div class="resultado-item">
+        <h1 class="titulo-seccion">🔓 Desencriptado</h1>
+        <div class="response placeholder">Resultado aparecerá aquí...</div>
+    </div>
+</section>
+    <section class="controles">
+        <h1>Selecciona el elemento</h1>
+        <div class="botones">
+            <button onclick="realizar()" class="botonok">Ok</button>
+            <div id="desplegar" class="botoneslabel" data-selected="" onclick="desplegar(event)">
+                <div class="selected-label">Selecciona</div>
+                <!-- Contenedor nuevo para las opciones -->
+                <div class="opciones-container">
+                    <div data-value="todos">Todos</div>
+                    <div data-value="nombre">Nombre</div>
+                    <div data-value="edad">Edad</div>
+                    <div data-value="color">Color de Piel</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
