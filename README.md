@@ -1,6 +1,7 @@
 # Base_de_Datos_Cifrada
 Materia: Criptografía
-Cristopher Celestino MArtinez:
+
+Cristopher Celestino Martinez:
 
 Este reto de programación consiste en usar la librería libsodium (en alguno de los lenguajes donde se encuentra disponible: C/C++, Java, PHP, Python) para cifrar una "base de datos" (en realidad, un archivo .CSV) almacenarla en un segundo archivo de salida, y descifrar ese mismo archivo.
 
